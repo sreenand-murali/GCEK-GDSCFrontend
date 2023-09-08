@@ -1,7 +1,7 @@
 
 import './App.css';
 import GoogleCloudJam from './GoogleCloudJam';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route, HashRouter } from "react-router-dom";
 import Homepage from './Homepage';
 import Navbar from './Navbar';
 import About from './About';
@@ -11,14 +11,14 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <BrowserRouter basename='/GCEK-GDSCFrontend'>
+      <HashRouter>
         <Routes>
-          <Route path="/" element={<Homepage/>}/>
+          <Route exact path="/" element={<Homepage/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/gcsj" element={<GoogleCloudJam/>}/>
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
       
     </div>
   );

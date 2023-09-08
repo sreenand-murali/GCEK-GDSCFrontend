@@ -3,10 +3,11 @@ import { useState, useEffect } from 'react'
 import './Leaderboard.css'
 
 const Leaderboard = () => {
+  const BACKEND_CONNECTION_LINK = "https://enchanting-calf-pea-coat.cyclic.cloud/leaderboard";
     const [data, setData] = useState([]);
   let i=1;
     const fetchInfo = () => { 
-        return fetch('http://localhost:8080/leaderboard') 
+        return fetch('https://enchanting-calf-pea-coat.cyclic.cloud/leaderboard') 
                 .then((res) => res.json()) 
                 .then((d) => setData(d)) 
                 .catch((e) => console.log("Error Occured : "+e))
