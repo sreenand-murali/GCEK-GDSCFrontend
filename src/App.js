@@ -10,9 +10,7 @@ import Contact from './Contact';
 function App() {
   return (
     <div className="App">
-      
-      <h1>heloooo</h1>
-      {/* <Navbar/>
+      <Navbar/>
       <BrowserRouter basename='/GCEK-GDSCFrontend'>
         <Routes>
           <Route path="/" element={<Homepage/>}/>
@@ -20,7 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/gcsj" element={<GoogleCloudJam/>}/>
         </Routes>
-        </BrowserRouter> */}
+        </BrowserRouter>
       
     </div>
   );
