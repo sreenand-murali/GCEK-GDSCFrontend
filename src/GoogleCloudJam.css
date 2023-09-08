@@ -1,0 +1,21 @@
+.containerlb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+
+    
+}
+
+.lbBox{
+    width: clamp(100px, 80vw, 800px);
+    height: 700px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px 1px rgba(176, 175, 175, 0.715);
+    overflow: scroll;
+    margin-top: 50px;
+
+    
+}

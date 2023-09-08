@@ -1,0 +1,31 @@
+table{
+    width: 100%;
+    
+    border-collapse: collapse;
+
+}
+
+thead{
+    background-color: rgba(245, 245, 245, 0.882);
+}
+
+thead tr th{
+    padding: 10px;
+}
+
+.rankd{
+    text-align: center;
+}
+
+.named{
+    padding: .4rem;
+    width: 50%;;
+}
+
+.scored{
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(245, 245, 245, 0.347);
+}
