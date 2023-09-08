@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GCEK-GDSCFrontend/static/css/main.262bece6.css",
-    "main.js": "/GCEK-GDSCFrontend/static/js/main.934ecc96.js",
+    "main.js": "/GCEK-GDSCFrontend/static/js/main.6d528404.js",
     "static/media/gc.jpg": "/GCEK-GDSCFrontend/static/media/gc.10f39474c4b0ea65105b.jpg",
     "index.html": "/GCEK-GDSCFrontend/index.html",
     "main.262bece6.css.map": "/GCEK-GDSCFrontend/static/css/main.262bece6.css.map",
-    "main.934ecc96.js.map": "/GCEK-GDSCFrontend/static/js/main.934ecc96.js.map"
+    "main.6d528404.js.map": "/GCEK-GDSCFrontend/static/js/main.6d528404.js.map"
   },
   "entrypoints": [
     "static/css/main.262bece6.css",
-    "static/js/main.934ecc96.js"
+    "static/js/main.6d528404.js"
   ]
 }
